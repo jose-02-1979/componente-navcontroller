@@ -1,11 +1,26 @@
 <ion-header>
   <ion-toolbar color="primary">
     <ion-buttons slot="start">
-      <ion-button routerLink="/inicio">Inicio</ion-button>
-      <ion-button routerLink="/saludo">Saludo</ion-button>
-      <ion-button routerLink="/galeria">Galería</ion-button>
-      <ion-button routerLink="/noticias">Noticias</ion-button>
-      <ion-button routerLink="/login">Login</ion-button>
+      <ion-button (click)="ir('/inicio')" fill="outline" shape="round" color="light" size="small">
+        <ion-icon slot="start" name="home-outline"></ion-icon>
+        Inicio
+      </ion-button>
+      <ion-button (click)="ir('/saludo')" fill="outline" shape="round" color="light" size="small">
+        <ion-icon slot="start" name="hand-left-outline"></ion-icon>
+        Saludo
+      </ion-button>
+      <ion-button (click)="ir('/galeria')" fill="outline" shape="round" color="light" size="small">
+        <ion-icon slot="start" name="images-outline"></ion-icon>
+        Galería
+      </ion-button>
+      <ion-button (click)="ir('/noticias')" fill="outline" shape="round" color="light" size="small">
+        <ion-icon slot="start" name="newspaper-outline"></ion-icon>
+        Noticias
+      </ion-button>
+      <ion-button (click)="ir('/login')" fill="outline" shape="round" color="light" size="small">
+        <ion-icon slot="start" name="log-in-outline"></ion-icon>
+        Login
+      </ion-button>
     </ion-buttons>
   </ion-toolbar>
 </ion-header>

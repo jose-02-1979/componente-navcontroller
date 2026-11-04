@@ -1,9 +1,9 @@
 <ion-footer>
   <ion-toolbar>
-    <ion-buttons>
-      <ion-button [routerLink]="'/' + base + '/uno'">Uno</ion-button>
-      <ion-button [routerLink]="'/' + base + '/dos'">Dos</ion-button>
-      <ion-button [routerLink]="'/' + base + '/tres'">Tres</ion-button>
+    <ion-buttons class="botones">
+      <ion-button (click)="ir('uno')" fill="outline" shape="round" color="secondary">Uno</ion-button>
+      <ion-button (click)="ir('dos')" fill="outline" shape="round" color="secondary">Dos</ion-button>
+      <ion-button (click)="ir('tres')" fill="outline" shape="round" color="secondary">Tres</ion-button>
     </ion-buttons>
   </ion-toolbar>
 </ion-footer>
