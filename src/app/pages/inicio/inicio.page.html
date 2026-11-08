@@ -1,6 +1,39 @@
 <app-menu-principal></app-menu-principal>
 
 <ion-content class="ion-padding">
-  <h2>Inicio</h2>
-  <p>Contenido de la página Inicio.</p>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Tarea: componente reutilizable de navegación</ion-card-subtitle>
+      <ion-card-title>Navegación con NavController</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p>
+        En esta aplicación creé un solo componente de menú con botones
+        y lo reutilicé en todas las páginas, en lugar de hacer uno por
+        cada página. Noticias y Galería tienen además un navegador
+        propio para moverse entre sus tres subpáginas.
+      </p>
+
+      <p class="autor">
+        <ion-icon name="person-outline"></ion-icon>
+        Elaborado por: José Luis Moreira
+      </p>
+
+      <div class="chips">
+        <ion-chip color="primary">
+          <ion-icon name="logo-ionic"></ion-icon>
+          <ion-label>Ionic</ion-label>
+        </ion-chip>
+        <ion-chip color="secondary">
+          <ion-icon name="logo-angular"></ion-icon>
+          <ion-label>Angular</ion-label>
+        </ion-chip>
+        <ion-chip color="tertiary">
+          <ion-icon name="navigate-outline"></ion-icon>
+          <ion-label>NavController</ion-label>
+        </ion-chip>
+      </div>
+    </ion-card-content>
+  </ion-card>
 </ion-content>

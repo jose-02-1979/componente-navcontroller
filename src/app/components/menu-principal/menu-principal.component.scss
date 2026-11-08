@@ -1,4 +1,16 @@
+ion-toolbar {
+  --background: linear-gradient(90deg, #7c3aed 0%, #ec4899 100%);
+  --color: #ffffff;
+  --border-width: 0;
+  padding: 6px 0;
+}
+
 ion-buttons {
   gap: 8px;
   padding: 0 8px;
+}
+
+ion-button {
+  --border-color: rgba(255, 255, 255, 0.85);
+  --color: #ffffff;
 }
